@@ -1,5 +1,6 @@
 import "./App.css";
 import SearchParams from "./SearchParams";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

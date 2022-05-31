@@ -1,11 +1,13 @@
 const Countries = (props) => {
   return (
-    <div>
-      <img src={props.flag} alt={props.name} />
-      <h1> {props.name}</h1>
-      <h1> {props.capital}</h1>
-      <h1> {props.region}</h1>
-    </div>
+    <tr key="">
+      <td>{props.id}</td>
+      <td>{props.name}</td>
+      <td>{props.capital}</td>
+      <td>{props.region}</td>
+      <td>{props.population}</td>
+      <td>{props.subregion}</td>
+    </tr>
   );
 };
 export default Countries;
